@@ -8,7 +8,7 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-title pr">
-                                    <h4>All Expense</h4>
+                                    <h4>All Products</h4>
 
                                 </div>
                                 <div class="card-body">
@@ -16,103 +16,99 @@
                                         <table class="table student-data-table m-t-20">
                                             <thead>
                                                 <tr>
-                                                    <th><label><input type="checkbox" value=""></label>ID</th>
-                                                    <th>Expense Type</th>
-                                                    <th>Amount</th>
-                                                    <th>Status</th>
-                                                    <th>Email</th>
-                                                    <th>Date</th>
+                                                    <th>{!! __('ID') !!}</th>
+                                                    <th>{!! __('Image') !!}</th>
+                                                    <th>{!! __('Name') !!}</th>
+                                                    <th>{!! __('Description') !!}</th>
+                                                    <th>{!! __('Price') !!}</th>
+                                                    <th>{!! __('Timings') !!}</th>
+                                                    <th>{!! __('Status') !!}</th>
+                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><label><input type="checkbox" value=""></label>#2901</td>
+                                                    <td>#2901</td>
                                                     <td>
-                                                        Salary
+                                                        <img width="50" height="50" src="{{ asset('assets/images/c1.jpg') }}" alt="Second slide">
                                                     </td>
                                                     <td>
-                                                        $2000
+                                                        Chocolate
                                                     </td>
                                                     <td>
-                                                        <span class="badge badge-primary">Paid</span>
+                                                        Amazing product
                                                     </td>
                                                     <td>
-                                                        edumin@gmail.com
+                                                        200
                                                     </td>
                                                     <td>
-                                                        10/05/2017
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><label><input type="checkbox" value=""></label>#2901</td>
-                                                    <td>
-                                                        Salary
-                                                    </td>
-                                                    <td>
-                                                        $2000
+                                                        12/03/2022
                                                     </td>
                                                     <td>
                                                         <span class="badge badge-warning">Pending</span>
                                                     </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>#2901</td>
                                                     <td>
-                                                        edumin@gmail.com
+                                                        <img width="50" height="50" src="{{ asset('assets/images/c2.jpg') }}" alt="Second slide">
                                                     </td>
                                                     <td>
-                                                        10/05/2017
+                                                        Chocolate
+                                                    </td>
+                                                    <td>
+                                                        Amazing product
+                                                    </td>
+                                                    <td>
+                                                        200
+                                                    </td>
+                                                    <td>
+                                                        12/03/2022
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-warning">Pending</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td><label><input type="checkbox" value=""></label>#2901</td>
+                                                    <td>#2901</td>
                                                     <td>
-                                                        Salary
+                                                        <img width="50" height="50" src="{{ asset('assets/images/c3.jpg') }}" alt="Second slide">
                                                     </td>
                                                     <td>
-                                                        $2000
+                                                        Chocolate
                                                     </td>
                                                     <td>
-                                                        <span class="badge badge-primary">Paid</span>
+                                                        Amazing product
                                                     </td>
                                                     <td>
-                                                        edumin@gmail.com
+                                                        200
                                                     </td>
                                                     <td>
-                                                        10/05/2017
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><label><input type="checkbox" value=""></label>#2901</td>
-                                                    <td>
-                                                        Salary
+                                                        12/03/2022
                                                     </td>
                                                     <td>
-                                                        $2000
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-danger">Due</span>
-                                                    </td>
-                                                    <td>
-                                                        edumin@gmail.com
-                                                    </td>
-                                                    <td>
-                                                        10/05/2017
+                                                        <span class="badge badge-warning">Pending</span>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td><label><input type="checkbox" value=""></label>#2901</td>
+                                                    <td>#2901</td>
                                                     <td>
-                                                        Salary
+                                                        <img width="50" height="50" src="{{ asset('assets/images/avatar.png') }}" alt="Second slide">
                                                     </td>
                                                     <td>
-                                                        $2000
+                                                        Chocolate
                                                     </td>
                                                     <td>
-                                                        <span class="badge badge-primary">Paid</span>
+                                                        Amazing product
                                                     </td>
                                                     <td>
-                                                        edumin@gmail.com
+                                                        200
                                                     </td>
                                                     <td>
-                                                        10/05/2017
+                                                        12/03/2022
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-warning">Pending</span>
                                                     </td>
                                                 </tr>
                                             </tbody>

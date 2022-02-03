@@ -3,8 +3,8 @@
             <div class="nano-content">
                 <ul>
                     <div class="logo"><a href="index.html">
-                            <!-- <img src="assets/images/logo.png" alt="" /> --><span>Focus</span></a></div>
-                             <li><a href="index.html">Dashboard 1</a></li>
+                            <!-- <img src="assets/images/logo.png" alt="" /> --><span>Mikronexus</span></a></div>
+                             <li><a href="#">Product detail</a></li>
                 </ul>
             </div>
         </div>
